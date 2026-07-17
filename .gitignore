@@ -21,3 +21,7 @@ frontend/dist/
 
 # Logs
 *.log
+
+# Stray debug screenshots (may show a logged-in LinkedIn session)
+*_debug*.png
+diag_debug.png
