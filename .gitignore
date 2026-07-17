@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+.venv/
+
+# Personal job-search data — resumes, generated application content, session
+# cache, and tracking files must never be committed. Only data/README.md
+# (explicitly un-ignored below) is tracked.
+data/*
+!data/README.md
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
